@@ -1,0 +1,60 @@
+.container {
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    justify-items: center;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.stripey:first {
+    line-height: 1.25rem;
+}
+
+.stripey > p {
+    margin: 2px;
+    width: 250px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.stripey-black {
+    color: #191919;
+}
+
+.stripey-red {
+    color: #e50000;
+}
+
+.profile-name {
+    margin-left: 8px;
+    font: 14px;
+    color: #191919;
+    font-weight: bold;
+}
+
+.profile-image {
+    margin-bottom: 10px;
+    width: 80px;
+    height: auto;
+    border:#e50000 2px solid;
+}
+
+.loader {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(/assets/loading.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
