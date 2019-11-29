@@ -44,5 +44,6 @@ The Solution must replicate as similar as possible the features of the provided 
 
 ## Final recognition
 
-![Focus Diploma](https://raw.githubusercontent.com/ricardoorellana/Focus_Javascript_Challenge/master/diploma.jpg)
+<img alt="Focus Diploma" src="https://raw.githubusercontent.com/ricardoorellana/Focus_Javascript_Challenge/master/diploma.jpg" />
+
 
